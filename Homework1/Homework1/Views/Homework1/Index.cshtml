@@ -1,0 +1,24 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<h1>Ziyaretçi Defteri</h1>
+<div id="Homework1-Index-Form">
+    <form>
+        <input type="text" id="Name" placeholder="Adınız" />
+        <br />
+        <input type="text" id="Surname" placeholder="Soyadınız" />
+        <br />
+        <input type="email" id="Email" placeholder="E-posta adresiniz" />
+        <br />
+        <textarea id="Message" placeholder="Mesajınız..."></textarea>
+        <br />
+        <input type="button" value="Gönder" onclick="Homework1.Page.Homework1.Index.Send();" />
+    </form>
+</div>
+<div id="Homework1-Index-Sending" style="display: none;">
+    <h3>Gönderiliyor...</h3>
+</div>
+<div id="Homework1-Index-Sent" style="display: none;">
+    <h3>Teşekkür ederim.</h3>
+</div>
